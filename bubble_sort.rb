@@ -17,6 +17,8 @@ loop do
     # Inicializar swapped como falso. Isso nos ajudará a saber se uma troca ocorreu.
     swapped = false
     (n-1).times do |i|
-        
+        if # Se o elemento atual for maior que o próximo elemento, troque-os
+        end
+
 end
 
