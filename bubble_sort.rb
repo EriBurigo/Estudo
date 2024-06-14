@@ -8,6 +8,7 @@
 
 
 def bubble_sort(array)
+    # Variável para medir o tamanho do array
     n = array.length
 end
 
