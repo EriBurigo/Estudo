@@ -16,5 +16,7 @@ end
 loop do
     # Inicializar swapped como falso. Isso nos ajudará a saber se uma troca ocorreu.
     swapped = false
+    (n-1).times do |i|
+        
 end
 
