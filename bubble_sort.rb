@@ -14,6 +14,7 @@ end
 
 # loop ate que nenhuma troca seja necessaria, indicando que o array está ordenado
 loop do
+    # Inicializar swapped como falso. Isso nos ajudará a saber se uma troca ocorreu.
     swapped = false
 end
 
