@@ -10,3 +10,8 @@
 def bubble_sort(array)
     n = array.length
 end
+
+# loop ate que nenhuma troca seja necessaria, indicando que o array está ordenado
+loop do
+end
+
