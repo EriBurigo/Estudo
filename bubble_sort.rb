@@ -13,5 +13,6 @@ end
 
 # loop ate que nenhuma troca seja necessaria, indicando que o array está ordenado
 loop do
+    swapped = false
 end
 
