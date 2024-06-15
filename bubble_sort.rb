@@ -18,7 +18,7 @@ loop do
     swapped = false
     # Iterar sobre o array do primeiro ao penúltimo elemento
     (n-1).times do |i|
-        if # Se o elemento atual for maior que o próximo elemento, troque-os
+        if array [i] > array [i+1] # Se o elemento atual for maior que o próximo elemento, troque-os
         end
 
 end
