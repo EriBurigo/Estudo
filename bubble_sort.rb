@@ -20,6 +20,7 @@ loop do
     (n-1).times do |i|
         if array [i] > array [i+1] # Se o elemento atual for maior que o próximo elemento, troque-os
             array[i], array[i+1] = array[i+1], array[i]
+            swapped = true 
         end
 
 end
