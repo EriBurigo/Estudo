@@ -25,6 +25,7 @@ def bubble_sort(array)
 
         break unless swapped
     end
+    array
 end
 
 
