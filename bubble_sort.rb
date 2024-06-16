@@ -10,20 +10,23 @@
 def bubble_sort(array)
     # Variável para medir o tamanho do array
     n = array.length
-end
 
-# loop ate que nenhuma troca seja necessaria, indicando que o array está ordenado
-loop do
+    # loop ate que nenhuma troca seja necessaria, indicando que o array está ordenado
+    loop do
     # Inicializar swapped como falso. Isso nos ajudará a saber se uma troca ocorreu.
     swapped = false
     # Iterar sobre o array do primeiro ao penúltimo elemento
-    (n-1).times do |i|
-        if array [i] > array [i+1] # Se o elemento atual for maior que o próximo elemento, troque-os
-            array[i], array[i+1] = array[i+1], array[i]
-            swapped = true 
+        (n-1).times do |i|
+            if array [i] > array [i+1] # Se o elemento atual for maior que o próximo elemento, troque-os
+                array[i], array[i+1] = array[i+1], array[i]
+                swapped = true 
+            end
         end
 
+        break unless swapped
+    end
 end
 
-break unless swapped
+
+
 
