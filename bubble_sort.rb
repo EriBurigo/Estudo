@@ -25,3 +25,5 @@ loop do
 
 end
 
+break unless swapped
+
