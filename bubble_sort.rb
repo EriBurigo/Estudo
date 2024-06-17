@@ -32,7 +32,7 @@ end
 
 arr = [5, 8, 3, 1, 2]
 sorted_arr = bubble_sort(arr)
-puts "Sortd array: #{sorted_arr}"
+puts "Sorted array: #{sorted_arr}"
 
 
 
