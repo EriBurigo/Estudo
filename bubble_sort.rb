@@ -24,7 +24,7 @@ def bubble_sort(array)
                 swapped = true 
             end
         end
-
+        # Se nenhuma troca foi feita, o array está ordenado e podemos sair do loop
         break unless swapped
     end
     array
