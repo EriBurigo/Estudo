@@ -20,6 +20,7 @@ def bubble_sort(array)
             if array [i] > array [i+1] # Se o elemento atual for maior que o próximo elemento, troque-os
                 # Trocar os elementos
                 array[i], array[i+1] = array[i+1], array[i]
+                # Como fizemos uma troca, definimos swapped como verdadeiro
                 swapped = true 
             end
         end
