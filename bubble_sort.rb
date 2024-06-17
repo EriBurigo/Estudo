@@ -29,6 +29,8 @@ def bubble_sort(array)
     array
 end
 
+arr = [5, 8, 3, 1, 2]
+
 
 
 
