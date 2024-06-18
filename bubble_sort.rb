@@ -5,6 +5,10 @@
 # repetidamente a lista, compara elementos adjacentes e os troca se
 # estiverem na ordem errada. O processo é repetido até que a lista
 # esteja ordenada.
+#
+# Uso:
+# array_ordenado = bubble_sort([5, 8, 3, 1, 2])
+# puts array_ordenado # => [1, 2, 3, 5, 8]
 
 
 def bubble_sort(array)
