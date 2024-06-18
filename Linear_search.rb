@@ -3,4 +3,6 @@
 # Ele percorre a lista do início ao fim, comparando cada elemento com o valor desejado.
 
 def linear_search (array, value)
+    array.each_with_index do |element, index|
+    end
 end
