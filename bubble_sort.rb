@@ -26,13 +26,13 @@ def bubble_sort(array)
                 array[i], array[i+1] = array[i+1], array[i]
                 # Como fizemos uma troca, definimos swapped como verdadeiro
                 swapped = true 
-            end
-        end
+            end # Fecha o if
+        end # fecha o .times do
         # Se nenhuma troca foi feita, o array está ordenado e podemos sair do loop
         break unless swapped
-    end
+    end # fecha loop do
     array
-end
+end # fecha a definição do metodo bubble sort
 
 arr = [5, 8, 3, 1, 2]
 sorted_arr = bubble_sort(arr)
