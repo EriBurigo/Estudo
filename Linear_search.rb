@@ -4,5 +4,7 @@
 
 def linear_search (array, value)
     array.each_with_index do |element, index|
+        if element == value
+        end
     end
 end
