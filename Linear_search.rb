@@ -13,3 +13,4 @@ end # Fecha o def linear_search
 
 # Testando o método Linear_search
 arr = [10, 20, 30, 40, 50]
+value_to_find = 20
