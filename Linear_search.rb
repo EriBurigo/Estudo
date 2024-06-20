@@ -8,4 +8,5 @@ def linear_search (array, value)
             return index
         end
     end # Fecha o 'do'
+    return -1 # Retorna -1 se o valor não for encontrado
 end # Fecha o def linear_search
