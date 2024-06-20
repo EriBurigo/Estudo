@@ -8,4 +8,4 @@ def linear_search (array, value)
             return index
         end
     end
-end
+end # Fecha o def linear_search
