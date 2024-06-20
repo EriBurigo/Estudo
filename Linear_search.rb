@@ -7,5 +7,5 @@ def linear_search (array, value)
         if element == value
             return index
         end
-    end
+    end # Fecha o 'do'
 end # Fecha o def linear_search
