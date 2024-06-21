@@ -19,4 +19,6 @@ result = linear_search (arr, value_to_find)
 # Verifica se o valor foi encontrado e imprime uma mensagem
 if result != -1 
     puts "O valor #{value_to_find} foi encontrado no indice #{result}"
+else
+    puts "O valor #{value_to_find} não foi encontrado no array"
 end
