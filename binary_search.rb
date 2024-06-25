@@ -7,6 +7,7 @@ def busca_binaria(arr, valor) # Define a função busca_binaria que aceita 2 arg
             if arr[meio] == valor # Se o valor do meio da lista for igual ao valor que estamos procurando
                 return meio # retorna o índice do meio pois encontramos o número
             elsif arr[meio] < valor # se o valor do meio for menor que o número que estamos procurando
+                início = meio + 1 # Move o inicio para depois do meio da lista, descartando a metade da esquerda
             end
         end
 end
