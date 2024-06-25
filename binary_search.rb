@@ -6,6 +6,7 @@ def busca_binaria(arr, valor) # Define a função busca_binaria que aceita 2 arg
             meio = (inicio + fim) / 2 # Calcula o índice do meio da lista
             if arr[meio] == valor # Se o valor do meio da lista for igual ao valor que estamos procurando
                 return meio # retorna o índice do meio pois encontramos o número
+            elsif arr[meio] < valor # se o valor do meio for menor que o número que estamos procurando
             end
         end
 end
