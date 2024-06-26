@@ -18,3 +18,4 @@ end
 # Valores para teste
 arr = [10, 20, 30, 40, 50]
 valor_a_procurar = 30
+resultado = busca_binaria(arr, valor_a_procurar)
