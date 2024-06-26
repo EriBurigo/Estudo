@@ -12,4 +12,5 @@ def busca_binaria(arr, valor) # Define a função busca_binaria que aceita 2 arg
                     fim = meio - 1 # Move o fim para antes do meio descartando a metade da direita da lista
             end
         end
+        nil # Se o número não for encontrado retornamos 'nil' (nulo), indicando que o número não está na lista
 end
