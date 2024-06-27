@@ -22,4 +22,5 @@ resultado = busca_binaria(arr, valor_a_procurar)
 
 if resultado
     puts "Número encontrado no índice #{resultado}"
+else
 end
