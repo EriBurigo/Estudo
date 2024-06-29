@@ -9,5 +9,6 @@ def counting_sort(array)
     # Itera sobre cada elemento do array e incrementa a contagem no índice correspondente
     array.each do |num|
         count[num] += 1
+    end
 
 end
