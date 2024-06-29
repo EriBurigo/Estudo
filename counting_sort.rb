@@ -6,5 +6,8 @@ def counting_sort(array)
     count = Array.new(max_value + 1, 0)
 
     # Conta a frequência de cada número na lista original
+    # Itera sobre cada elemento do array e incrementa a contagem no índice correspondente
     array.each do |num|
+        count[num] += 1
+
 end
