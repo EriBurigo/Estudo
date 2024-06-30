@@ -15,4 +15,7 @@ def counting_sort(array)
         count[i] += count[i - 1] # Cada posição no array de contagem deve ser a soma das contagens anteriores
     end
 
+    #Cria um array de sída para armazenar os elementos ordenados
+    output = Array.new(array.length)
+
 end
