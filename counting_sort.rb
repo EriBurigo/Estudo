@@ -10,5 +10,7 @@ def counting_sort(array)
     array.each do |num|
         count[num] += 1
     end
+    # Acumular as contagens
+    (1..max_value).each do |i|
 
 end
