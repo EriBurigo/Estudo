@@ -12,5 +12,7 @@ def counting_sort(array)
     end
     # Acumular as contagens
     (1..max_value).each do |i|
+        count[i] += count[i - 1] # Cada posição no array de contagem deve ser a soma das contagens anteriores
+    end
 
 end
