@@ -20,6 +20,8 @@ def counting_sort(array)
 
     # Colocar os números nas suas posições corretas no array ordenado
     array.each do |num|
+        # Coloca o elemento na posição correta no array de saída
+        output[count[num] - 1] = num
     end
 
 end
