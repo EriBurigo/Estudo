@@ -22,6 +22,8 @@ def counting_sort(array)
     array.each do |num|
         # Coloca o elemento na posição correta no array de saída
         output[count[num] - 1] = num
+        # Decrementa a contagem para esse valor, ajustando para a próxima ocorrência
+        count[num] -= 1  
     end
 
 end
