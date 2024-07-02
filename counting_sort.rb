@@ -18,4 +18,8 @@ def counting_sort(array)
     #Cria um array de sída para armazenar os elementos ordenados
     output = Array.new(array.length)
 
+    # Colocar os números nas suas posições corretas no array ordenado
+    array.each do |num|
+    end
+
 end
