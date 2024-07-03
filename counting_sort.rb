@@ -25,5 +25,7 @@ def counting_sort(array)
         # Decrementa a contagem para esse valor, ajustando para a próxima ocorrência
         count[num] -= 1  
     end
+    # Retorna o array ordenado
+    output
 
 end
