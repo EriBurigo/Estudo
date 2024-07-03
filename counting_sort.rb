@@ -32,5 +32,6 @@ end
 
 # Testando counting sort
 arr = [4, 2, 2, 8, 3, 3, 7]
-puts "Array original #{arr}"
+puts "Array original: #{arr}"
 sorted_arr = counting_sort(arr)
+puts "array ordenado: #{sorted_arr}"
