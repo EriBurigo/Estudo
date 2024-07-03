@@ -32,3 +32,4 @@ end
 
 # Testando counting sort
 arr = [4, 2, 2, 8, 3, 3, 7]
+puts "Array original #{arr}"
