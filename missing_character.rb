@@ -10,3 +10,7 @@ input = "welcome to missing characte"
 
 # Inicializa um conjunto vazio para manter o controle dos caracteres presentes
 empty_set = Set.new
+
+# Iterar sobre cada caractere da string de entrada
+input.each_char do |char|
+end
