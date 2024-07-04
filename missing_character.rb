@@ -5,5 +5,8 @@
 
 require 'set'
 
+# Inicializa a string de entrada
+input = "welcome to missing characte"
+
 # Inicializa um conjunto vazio para manter o controle dos caracteres presentes
 empty_set = Set.new
