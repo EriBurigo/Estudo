@@ -13,4 +13,6 @@ empty_set = Set.new
 
 # Iterar sobre cada caractere da string de entrada
 input.each_char do |char|
+    # Converte o caracter para minuscula
+    char = char.downcase
 end
