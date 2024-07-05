@@ -17,5 +17,7 @@ input.each_char do |char|
     char = char.downcase
     # Verifica se o caracter que foi convertido é uma letra
     if ('a'..'z').include?(char)
+        # adiciona o caracter ao conjunto vazio
+        empty_set.add(char)
     end
 end
