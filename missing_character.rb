@@ -21,3 +21,6 @@ input.each_char do |char|
         empty_set.add(char)
     end
 end
+
+# Cria um conjunto com todas as letras do alfabeto
+alphabet = Set.new('a'..'z')
