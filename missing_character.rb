@@ -15,4 +15,7 @@ empty_set = Set.new
 input.each_char do |char|
     # Converte o caracter para minuscula
     char = char.downcase
+    # Verifica se o caracter que foi convertido é uma letra
+    if ('a'..'z').include?(char)
+    end
 end
