@@ -27,3 +27,7 @@ alphabet = Set.new('a'..'z')
 
 # Faz uma subtração entre os caracteres armazenados no conjunto empty_set e o alphabet
 missing = empty_set - alphabet
+
+# Verifica se a variavel missing está vazia
+if missing.empty?
+end
