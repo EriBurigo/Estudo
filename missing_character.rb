@@ -30,4 +30,5 @@ missing = empty_set - alphabet
 
 # Verifica se a variavel missing está vazia
 if missing.empty?
+    puts "A frase é um pangram"
 end
