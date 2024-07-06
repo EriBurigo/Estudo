@@ -24,3 +24,6 @@ end
 
 # Cria um conjunto com todas as letras do alfabeto
 alphabet = Set.new('a'..'z')
+
+# Faz uma subtração entre os caracteres armazenados no conjunto empty_set e o alphabet
+missing = empty_set - alphabet
