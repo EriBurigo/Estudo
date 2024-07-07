@@ -5,6 +5,12 @@ def maximize_sum(arr, k)
 
     # Inicializa o índice para iterar pelo array.
     i = 0
+# Loop principal: k > 0 -> Continua enquanto as negações forem maior que 0
+# i < arr.length -> Continua enquanto o indice for menor que o tamanho do array
+# arr[i] < 0 -> Verifica se o elemento atual é negativo
+    while k > 0 && i < arr.length && arr[i] < 0
+    end
+
 end
 
 # Dados para uso
