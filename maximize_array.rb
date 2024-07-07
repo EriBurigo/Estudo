@@ -5,3 +5,4 @@ def maximize_sum(arr, k)
 
     # Inicializa o índice para iterar pelo array.
     i = 0
+end
