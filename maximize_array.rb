@@ -10,3 +10,4 @@ end
 # Dados para uso
 arr = [-2, 5, -8, 0, 3, 1, -1]
 k = 5
+result = maximize_sum(arr, k)
