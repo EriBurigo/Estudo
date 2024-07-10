@@ -11,6 +11,8 @@ def maximize_sum(arr, k)
     while k > 0 && i < arr.length && arr[i] < 0
         # negar o elemento
         arr[i] = -arr[i]
+        # Diminui 'k' em 1
+        k -= 1
     end
 
 end
