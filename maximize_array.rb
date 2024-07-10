@@ -13,6 +13,8 @@ def maximize_sum(arr, k)
         arr[i] = -arr[i]
         # Diminui 'k' em 1
         k -= 1
+        # Avança para o proximo elemento
+        i += 1
     end
 
 end
