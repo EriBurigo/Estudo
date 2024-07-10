@@ -9,6 +9,8 @@ def maximize_sum(arr, k)
 # i < arr.length -> Continua enquanto o indice for menor que o tamanho do array
 # arr[i] < 0 -> Verifica se o elemento atual é negativo
     while k > 0 && i < arr.length && arr[i] < 0
+        # negar o elemento
+        arr[i] = -arr[i]
     end
 
 end
