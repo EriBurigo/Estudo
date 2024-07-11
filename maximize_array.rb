@@ -24,6 +24,8 @@ def maximize_sum(arr, k)
         arr[0] = -arr[0]
     end
 
+    # Calcular e retornar a soma do array
+    sum = arr.sum
 end
 
 # Dados para uso
