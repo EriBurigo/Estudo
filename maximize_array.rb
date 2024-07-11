@@ -1,3 +1,7 @@
+# Este problema envolve maximizar a soma de um array após fazer até 𝐾 negações em seus elementos. 
+# Uma negação significa mudar um número positivo para negativo ou vice-versa.
+
+
 # Define o metodo
 def maximize_sum(arr, k)
 # ordena o array
