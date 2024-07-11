@@ -16,6 +16,9 @@ def maximize_sum(arr, k)
         # Avança para o proximo elemento
         i += 1
     end
+    # Se ainda tivermos um número de negações ímpar, invertemos o menor valor do array para maximizar a soma
+    if k % 2 != 0
+    end
 
 end
 
