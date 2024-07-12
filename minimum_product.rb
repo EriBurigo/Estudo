@@ -2,10 +2,13 @@
 # Um subconjunto é qualquer seleção de elementos do array, onde a ordem dos elementos não importa. 
 # O conjunto completo também é considerado um subconjunto
 
-# Verifica se o array está vazio
-return 0 if arr.empty?
+def menor_produto(arr)
 
- Count_zeros = 0
+# Verifica se o array está vazio
+    return 0 if arr.empty?
+
+    Count_zeros = 0
+end
 
  # Se todos os numeros são zeros, então o produto minimo é zero
  return 0 if Count_zeros == arr.size
