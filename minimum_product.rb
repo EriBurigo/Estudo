@@ -9,3 +9,6 @@ return 0 if arr.empty?
 
  # Se todos os numeros são zeros, então o produto minimo é zero
  return 0 if Count_zeros == arr.size
+
+ # Dados para uso
+ arr = [-5, 2, -2, 3, 0]
