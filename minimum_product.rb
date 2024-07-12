@@ -16,3 +16,5 @@ end
  # Dados para uso
  arr = [-5, 2, -2, 3, 0]
  result = menor_produto(arr)
+ puts "O menor produto de um subconjunto é: #{result}"
+ 
