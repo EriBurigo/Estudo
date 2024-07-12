@@ -4,3 +4,5 @@
 
 # Verifica se o array está vazio
 return 0 if arr.empty?
+
+ Count_zeros = 0
