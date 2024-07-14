@@ -16,6 +16,8 @@ end
 
  # Itera pelo array
  arr.each do |num|
+    if num == 0
+    end
  end
 
  # Dados para uso
