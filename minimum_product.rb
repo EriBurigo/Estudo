@@ -7,6 +7,7 @@ def menor_produto(arr)
 # Verifica se o array está vazio
     return 0 if arr.empty?
 
+    Count_negativos = 0
     Count_zeros = 0
 end
 
@@ -17,4 +18,3 @@ end
  arr = [-5, 2, -2, 3, 0]
  result = menor_produto(arr)
  puts "O menor produto de um subconjunto é: #{result}"
- 
