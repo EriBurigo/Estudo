@@ -14,6 +14,10 @@ end
  # Se todos os numeros são zeros, então o produto minimo é zero
  return 0 if Count_zeros == arr.size
 
+ # Itera pelo array
+ arr.each do |num|
+ end
+
  # Dados para uso
  arr = [-5, 2, -2, 3, 0]
  result = menor_produto(arr)
