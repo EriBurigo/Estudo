@@ -19,6 +19,7 @@ end
     if num == 0
         Count_zeros += 1 # incrementa a contagem de zeros
     elsif num < 0 
+        Count_negativos += 1 # incrementa a contagem de negativos
     end
  end
 
