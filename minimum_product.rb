@@ -17,6 +17,7 @@ end
  # Itera pelo array
  arr.each do |num|
     if num == 0
+        Count_zeros += 1 # incrementa a contagem de zeros
     end
  end
 
