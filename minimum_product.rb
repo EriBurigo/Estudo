@@ -9,6 +9,7 @@ def menor_produto(arr)
 
     Count_negativos = 0
     Count_zeros = 0
+    max_negative = Float::INFINITY 
 end
 
  # Se todos os numeros são zeros, então o produto minimo é zero
