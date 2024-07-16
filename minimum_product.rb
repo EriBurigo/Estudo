@@ -23,6 +23,8 @@ end
     elsif num < 0 
         Count_negativos += 1 # incrementa a contagem de negativos
         max_negativo = [max_negativo, num].max # Atualiza o maior valor negativo
+    else
+        min_positivo = [min_positivo, num].min # Atualiza o menor valor positivo
     end
  end
 
