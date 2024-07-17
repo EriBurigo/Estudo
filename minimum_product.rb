@@ -27,6 +27,8 @@ def menor_produto(arr)
         min_positivo = [min_positivo, num].min # Atualiza o menor valor positivo
         end
     end
+
+    produto = 1 # Inicializa o produto como 1
 end
 
  # Dados para uso
