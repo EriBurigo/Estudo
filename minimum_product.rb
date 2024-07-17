@@ -30,6 +30,7 @@ def menor_produto(arr)
 
     produto = 1 # Inicializa o produto como 1
     arr.each do |num| 
+        produto *= num unless num == 0 # multiplica cada numero diferente de 0
     end
 end
 
