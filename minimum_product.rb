@@ -29,6 +29,8 @@ def menor_produto(arr)
     end
 
     produto = 1 # Inicializa o produto como 1
+    arr.each do |num| 
+    end
 end
 
  # Dados para uso
