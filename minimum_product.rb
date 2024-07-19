@@ -33,8 +33,9 @@ def menor_produto(arr)
         produto *= num unless num == 0 # multiplica cada numero diferente de 0
     end
     if Count_negativos.odd?
+        produto /= max_negativo
     end
-    
+
     produto # retorna o produto
 end
 
