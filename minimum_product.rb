@@ -7,21 +7,21 @@ def menor_produto(arr)
 # Verifica se o array está vazio
     return 0 if arr.empty?
 
-    Count_negativos = 0
-    Count_zeros = 0
+    count_negativos = 0
+    count_zeros = 0
     max_negativo = -Float::INFINITY 
     min_positivo = Float::INFINITY
 
 
  # Se todos os numeros são zeros, então o produto minimo é zero
- return 0 if Count_zeros == arr.size
+ return 0 if count_zeros == arr.size
 
  # Itera pelo array
     arr.each do |num|
         if num == 0
-            Count_zeros += 1 # incrementa a contagem de zeros
+            count_zeros += 1 # incrementa a contagem de zeros
         elsif num < 0 
-            Count_negativos += 1 # incrementa a contagem de negativos
+            count_negativos += 1 # incrementa a contagem de negativos
          max_negativo = [max_negativo, num].max # Atualiza o maior valor negativo
         else
         min_positivo = [min_positivo, num].min # Atualiza o menor valor positivo
@@ -32,7 +32,7 @@ def menor_produto(arr)
     arr.each do |num| 
         produto *= num unless num == 0 # multiplica cada numero diferente de 0
     end
-    if Count_negativos.odd?
+    if count_negativos.odd?
         produto /= max_negativo
     end
 
