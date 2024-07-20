@@ -3,3 +3,4 @@
 
 
 input = iMeN0/d@6n%w 
+number = 0 # variavel para armazenar a contagem do numeros na frase
