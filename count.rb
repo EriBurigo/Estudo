@@ -9,4 +9,6 @@ capital_letter = 0 # inicializa a variavel para contagem de letras maiusculas
 small_letter = 0 # inicializa a variavel para contagem de letras minusculas
 
 input.each_char do |count|
+    if ('a'..'z').include?(count)
+    end
 end
