@@ -10,5 +10,6 @@ small_letter = 0 # inicializa a variavel para contagem de letras minusculas
 
 input.each_char do |count|
     if ('a'..'z').include?(count)
+        small_letter += 1
     end
 end
