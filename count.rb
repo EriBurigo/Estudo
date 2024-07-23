@@ -12,5 +12,6 @@ input.each_char do |count|
     if ('a'..'z').include?(count)
         small_letter += 1
     elsif ('A'..'Z').include?(count)
+        capital_letter += 1
     end
 end
