@@ -19,3 +19,5 @@ input.each_char do |count|
         character += 1
     end
 end
+
+puts " Números na frase: #{number}\n Caracteres na frase: #{character}\n Letras maiusculas na frase: #{capital_letter}\n Letras minusculas: #{small_letter}"
