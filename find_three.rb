@@ -7,6 +7,7 @@ def find_three(arr)
         if num > first
             third = second
             second = first
+            first = num
         end
     end
 
