@@ -4,6 +4,8 @@ def find_three(arr)
     third = -Float::INFINITY
 
     arr.each do |num|
+        if num > first
+        end
     end
 
 end
