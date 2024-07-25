@@ -5,6 +5,7 @@ def find_three(arr)
 
     arr.each do |num|
         if num > first
+            third = second
         end
     end
 
