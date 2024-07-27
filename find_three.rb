@@ -11,6 +11,7 @@ def find_three(arr)
         elsif num > second
             third = second
             second = num
+        elsif num > third 
         end
     end
 
