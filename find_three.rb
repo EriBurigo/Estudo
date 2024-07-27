@@ -15,6 +15,7 @@ def find_three(arr)
             third = num
         end
     end
+    {first: first, second: second, third: third}
 
 end
 
