@@ -8,6 +8,7 @@ def reverter(arr, inicio, fim)
 end
 
 def rotacionar_direita(arr, k)
+    n = arr.length # Obtem o tamanho do array
 
 end
 
