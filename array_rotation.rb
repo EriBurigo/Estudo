@@ -7,5 +7,9 @@ def reverter(arr, inicio, fim)
 
 end
 
+def rotacionar_direita(arr, k)
+
+end
+
 # Dados para uso
 arr = [1, 2, 3, 5, 8, 13, 21, 34, 55]
