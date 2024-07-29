@@ -1,3 +1,6 @@
+# Entendendo o problema - Rotacionar o array para a direita de acordo com um numero 'k' de vezes escolhido
+
+
 def reverter(arr, inicio, fim)
     while inicio < fim
         arr[inicio], arr[fim] = arr[fim], arr[inicio]
