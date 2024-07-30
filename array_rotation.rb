@@ -12,6 +12,7 @@ end
 
 def rotacionar_direita(arr, k)
     n = arr.length # Obtem o tamanho do array
+    k = k % n # Ajusta 'k' caso seja maior que o array
 
 end
 
