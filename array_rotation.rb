@@ -24,3 +24,4 @@ end
 # Dados para uso
 arr = [1, 2, 3, 5, 8, 13, 21, 34, 55]
 k = 3
+result = rotacionar_direita(arr, k) # mostra o array após a rotação
