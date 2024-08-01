@@ -8,3 +8,4 @@ def closest_future_date(calendar, queries)
 end
 
 calendar = ["05-08-2024", "12-08-2024", "20-09-2024", "02-10-2024", "18-10-2024"]
+queries = ["02-09-2024", "05-10-2024"]
