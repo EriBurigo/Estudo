@@ -4,6 +4,8 @@
 # Se não existir datas disponiveis imprima -1
 
 def closest_future_date(calendar, queries)
+    result = []
+
 
 end
 
