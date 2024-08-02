@@ -5,6 +5,7 @@
 
 def closest_future_date(calendar, queries)
     result = []
+    end_arr = calendar.length - 1
 
 
 end
