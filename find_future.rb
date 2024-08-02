@@ -8,6 +8,9 @@ def closest_future_date(calendar, queries)
     end_arr = calendar.length - 1
     outset = 0
 
+        while outset <= end_arr
+
+        end
 
 end
 
