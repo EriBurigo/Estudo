@@ -1,3 +1,7 @@
+# A busca binária é um algoritmo de busca usado para encontrar a posição de um valor alvo dentro de uma matriz ordenada . 
+# Ele funciona dividindo repetidamente o intervalo de busca pela metade até que o valor alvo seja encontrado ou o intervalo esteja vazio.
+
+
 def busca_binaria(arr, valor) # Define a função busca_binaria que aceita 2 argumentos: 'arr' (a lista de números) e 'valor' (o número que estamos procurando)
     inicio = 0 # Define o inicio da lista como o indice 0
         fim = arr.length - 1 # Define o fim da lista como ultimo indice (o tamanho da lista -1)
