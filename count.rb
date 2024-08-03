@@ -13,11 +13,11 @@ input.each_char do |count|
         small_letter += 1
     elsif ('A'..'Z').include?(count)
         capital_letter += 1
-    elsif ('1'..'9').include?(count)
+    elsif ('0'..'9').include?(count)
         number += 1
     else
         character += 1
     end
-end
+end 
 
 puts " Números na frase: #{number}\n Caracteres na frase: #{character}\n Letras maiusculas na frase: #{capital_letter}\n Letras minusculas: #{small_letter}"
