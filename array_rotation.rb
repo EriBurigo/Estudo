@@ -14,10 +14,10 @@ def rotacionar_direita(arr, k)
     n = arr.length # Obtem o tamanho do array
     k = k % n # Ajusta 'k' caso seja maior que o array
 
-    reverter(arr, k - n, n - 1) # Reverte os ultumos 'k' elementos
-    reverter(arr, 0, n - k - 1) # Reverte os primeiros 'n - k' elementos
     reverter(arr, 0, n - 1) # Reverte todo array
-
+    reverter(arr, 0, k - 1) # Reverte os primeiros 'k' elementos
+    reverter(arr, k, n - 1) # Reverte os ultimos 'n - k' elementos.
+    
     arr
 end
 
