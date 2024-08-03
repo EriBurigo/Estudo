@@ -16,7 +16,7 @@ def rotacionar_direita(arr, k)
 
     reverter(arr, 0, n - 1) # Reverte todo array
     reverter(arr, 0, k - 1) # Reverte os primeiros 'k' elementos
-    reverter(arr, k, n - 1) # Reverte os ultimos 'n - k' elementos
+    reverter(arr, k, n - 1) # Reverte os ultimos 'n - k' elementos.
     
     arr
 end
