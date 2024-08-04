@@ -13,7 +13,7 @@ end # Fecha o def linear_search
 
 # Testando o método Linear_search
 arr = [10, 20, 30, 40, 50]
-value_to_find = 20
+value_to_find = 25
 result = linear_search(arr, value_to_find)
 
 # Verifica se o valor foi encontrado e imprime uma mensagem
