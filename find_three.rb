@@ -1,3 +1,6 @@
+# Dado um array com todos os elementos distintos, encontre os três maiores elementos.
+
+
 def find_three(arr)
     first = -Float::INFINITY
     second = -Float::INFINITY
