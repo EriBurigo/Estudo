@@ -1,32 +1,32 @@
+# A ideia básica por trás do Counting Sort é contar a frequência de cada elemento distinto na matriz de entrada 
+# E usar essa informação para colocar os elementos em suas posições corretas classificadas.
+
+
 def counting_sort(array)
-    #Encontra o valor maximo na lista
-    max_value = array.max
+    
+    max_value = array.max #Encontra o valor maximo na lista
 
-    # Cria um array de contagem com tamanho do valor máximo + 1, inicializado com zeros
-    count = Array.new(max_value + 1, 0)
+    count = Array.new(max_value + 1, 0) # Cria um array de contagem com tamanho do valor máximo + 1, inicializado com zeros
 
-    # Conta a frequência de cada número na lista original
-    # Itera sobre cada elemento do array e incrementa a contagem no índice correspondente
-    array.each do |num|
-        count[num] += 1
+    
+    array.each do |num| # Itera sobre cada elemento do array e incrementa a contagem no índice correspondente
+        count[num] += 1 # Conta a frequência de cada número na lista original
     end
+
     # Acumular as contagens
     (1..max_value).each do |i|
         count[i] += count[i - 1] # Cada posição no array de contagem deve ser a soma das contagens anteriores
     end
 
-    #Cria um array de sída para armazenar os elementos ordenados
-    output = Array.new(array.length)
+    output = Array.new(array.length) #Cria um array de sída para armazenar os elementos ordenados
 
     # Colocar os números nas suas posições corretas no array ordenado
     array.each do |num|
-        # Coloca o elemento na posição correta no array de saída
-        output[count[num] - 1] = num
-        # Decrementa a contagem para esse valor, ajustando para a próxima ocorrência
-        count[num] -= 1  
+        output[count[num] - 1] = num # Coloca o elemento na posição correta no array de saída
+        count[num] -= 1  # Decrementa a contagem para esse valor, ajustando para a próxima ocorrência
     end
-    # Retorna o array ordenado
-    output
+    
+    output # Retorna o array ordenado
 
 end
 
