@@ -42,4 +42,9 @@ end
  # Dados para uso
  arr = [-5, 2, -2, 3, 0]
  result = menor_produto(arr)
- puts "O menor produto de um subconjunto é: #{result}"
+ puts "O menor produto de um subconjunto é: #{result}" # Resultado = 60
+
+ # Conclusão, dado o algoritmo atual o resultado 60 está correto porem,
+ # Para encontrar o menor produto de qualquer subconjunto (incluindo subarrays de diferentes tamanhos), será preciso considerar todas as combinações possíveis de elementos. 
+ # O algoritmo atual não cobre todos os casos, pois apenas considera o produto total dos elementos e ajusta com base no número de negativos.
+# uma outra abordagem para encontrar o menor produto de qualquer subconjunto, seria uma que use uma abordagem de força bruta:
