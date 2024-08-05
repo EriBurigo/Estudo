@@ -8,9 +8,15 @@ def closest_future_date(calendar, queries)
     end_arr = calendar.length - 1
     outset = 0
 
+<<<<<<< Updated upstream
         while outset <= end_arr
 
         end
+=======
+    while outset < end_arr
+
+    end
+>>>>>>> Stashed changes
 
 
 end
