@@ -3,20 +3,16 @@
 # Para cada consulta imprima a próxima data mais próxima no futuro do array(calendar).
 # Se não existir datas disponiveis imprima -1
 
+
+
 def closest_future_date(calendar, queries)
     result = []
     end_arr = calendar.length - 1
     outset = 0
 
-<<<<<<< Updated upstream
-        while outset <= end_arr
-
-        end
-=======
     while outset < end_arr
-
+        mid = (outset + end_arr) / 2
     end
->>>>>>> Stashed changes
 
 
 end
