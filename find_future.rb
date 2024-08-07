@@ -10,9 +10,10 @@ def closest_future_date(calendar, queries)
     calendar.map! { |date| Date.strptime(date, '%d-%m-%y') }.sort! # # Converte cada string de data no array `calendar` para um objeto Date e ordena o array
     result = []
 
-    
+    queries.each do |query|
     end_arr = calendar.length - 1
     outset = 0
+    end
 
     while outset < end_arr
         mid = (outset + end_arr) / 2
