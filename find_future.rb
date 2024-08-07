@@ -11,6 +11,7 @@ def closest_future_date(calendar, queries)
     result = []
 
     queries.each do |query|
+    query_date = Date.strptime(query, '%d-%m-%y') # Converte a string de data da consulta para um objeto Date
     end_arr = calendar.length - 1
     outset = 0
     end
