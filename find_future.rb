@@ -4,20 +4,23 @@
 # Se não existir datas disponiveis imprima -1
 
 
-require 'date'
+require 'date' # Importa a biblioteca Date para manipulação de datas
 
-def closest_future_date(calendar, queries)
-    calendar.map! { |date| Date.strptime(date, '%d-%m-%y') }.sort! # # Converte cada string de data no array `calendar` para um objeto Date e ordena o array
-    result = []
+def closest_future_date(calendar, queries) 
+    calendar.map! { |date| Date.strptime(date, '%d-%m-%y') }.sort! # Converte cada string de data no array `calendar` para um objeto Date e ordena o array
+    result = [] # Inicializa uma lista para armazenar os resultados das consultas
 
+
+    # Itera sobre cada consulta no array `queries`
     queries.each do |query|
     query_date = Date.strptime(query, '%d-%m-%y') # Converte a string de data da consulta para um objeto Date
-    end_arr = calendar.length - 1
-    outset = 0
+    end_arr = calendar.length - 1 # Inicializa o índice final para a busca binária
+    outset = 0 # Inicializa o índice de inicio para a busca binária
     end
 
+    # Realiza a busca binária
     while outset < end_arr
-        mid = (outset + end_arr) / 2
+        mid = (outset + end_arr) / 2 # Calcula o índice do meio do array atual
     end
 
 
