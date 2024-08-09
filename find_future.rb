@@ -16,6 +16,7 @@ def closest_future_date(calendar, queries)
     query_date = Date.strptime(query, '%d-%m-%y') # Converte a string de data da consulta para um objeto Date
     end_arr = calendar.length - 1 # Inicializa o índice final para a busca binária
     outset = 0 # Inicializa o índice de inicio para a busca binária
+    closest_date = nil # inicializa a variavel para armazenar a data futura mais proxima
     end
 
     # Realiza a busca binária
