@@ -17,22 +17,21 @@ def closest_future_date(calendar, queries)
     end_arr = calendar.length - 1 # Inicializa o índice final para a busca binária
     outset = 0 # Inicializa o índice de inicio para a busca binária
     closest_date = nil # inicializa a variavel para armazenar a data futura mais proxima
-    end
 
     # Realiza a busca binária
-    while outset < end_arr
-        mid = (outset + end_arr) / 2 # Calcula o índice do meio do array atual
+        while outset < end_arr
+            mid = (outset + end_arr) / 2 # Calcula o índice do meio do array atual
 
-        if calendar[mid] > query_date # Verifica se a data no índice do meio é maior que a data de consulta
+            if calendar[mid] > query_date # Verifica se a data no índice do meio é maior que a data de consulta
             closest_date = calendar[mid].strftime('%d-%m-%Y')  # Atualiza `closest_date` com a data encontrada
-        end_arr = meio - 1 # Move o indice final do array para o meio para continuar fazer a busca na metade da esquerda
+            end_arr = meio - 1 # Move o indice final do array para o meio para continuar fazer a busca na metade da esquerda
             else 
                 outset = meio + 1 # Move o inicio para o meio do array e continua procurando na metade da direita
        
+             end
         end
-    end
-
-
+    result << closest_date # Adiciona a data futura mais próxima encontrada ao array de resultados
+    end 
 end
 
 calendar = ["05-08-2024", "12-08-2024", "20-09-2024", "02-10-2024", "18-10-2024"]
