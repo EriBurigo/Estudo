@@ -19,7 +19,7 @@ def closest_future_date(calendar, queries)
     closest_date = nil # inicializa a variavel para armazenar a data futura mais proxima
 
     # Realiza a busca binária
-        while outset < end_arr
+        while outset <= end_arr
             mid = (outset + end_arr) / 2 # Calcula o índice do meio do array atual
 
             if calendar[mid] > query_date # Verifica se a data no índice do meio é maior que a data de consulta
