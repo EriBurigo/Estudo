@@ -7,13 +7,13 @@
 require 'date' # Importa a biblioteca Date para manipulação de datas
 
 def closest_future_date(calendar, queries) 
-    calendar.map! { |date| Date.strptime(date, '%d-%m-%y') }.sort! # Converte cada string de data no array `calendar` para um objeto Date e ordena o array
+    calendar.map! { |date| Date.strptime(date, '%d-%m-%Y') }.sort! # Converte cada string de data no array `calendar` para um objeto Date e ordena o array
     result = [] # Inicializa uma lista para armazenar os resultados das consultas
 
 
     # Itera sobre cada consulta no array `queries`
     queries.each do |query|
-    query_date = Date.strptime(query, '%d-%m-%y') # Converte a string de data da consulta para um objeto Date
+    query_date = Date.strptime(query, '%d-%m-%Y') # Converte a string de data da consulta para um objeto Date
     end_arr = calendar.length - 1 # Inicializa o índice final para a busca binária
     outset = 0 # Inicializa o índice de inicio para a busca binária
     closest_date = nil # inicializa a variavel para armazenar a data futura mais proxima
