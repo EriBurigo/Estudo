@@ -24,7 +24,9 @@ def closest_future_date(calendar, queries)
         mid = (outset + end_arr) / 2 # Calcula o índice do meio do array atual
 
         if calendar[mid] > query_date # Verifica se a data no índice do meio é maior que a data de consulta
-            mid = end_arr - 1 # Move o indice final do array para o meio para continuar fazer a busca na metade da esquerda
+        end_arr = meio - 1 # Move o indice final do array para o meio para continuar fazer a busca na metade da esquerda
+            else 
+                outset = meio + 1 # Move o inicio para o meio do array e continua procurando na metade da direita
        
         end
     end
