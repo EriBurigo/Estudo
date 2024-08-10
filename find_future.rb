@@ -32,6 +32,7 @@ def closest_future_date(calendar, queries)
         end
     result << closest_date # Adiciona a data futura mais próxima encontrada ao array de resultados
     end 
+    result # retorna o array de resultados
 end
 
 calendar = ["05-08-2024", "12-08-2024", "20-09-2024", "02-10-2024", "18-10-2024"]
