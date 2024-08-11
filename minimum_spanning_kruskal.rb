@@ -11,4 +11,5 @@
 
 
 class Edge 
+    attr_accessor :src, :dest, :weight # Adiciona métodos getters e setters para os atributos src, dest e weight na classe Edge
 end
