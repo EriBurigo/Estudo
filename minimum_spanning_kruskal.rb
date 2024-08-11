@@ -8,3 +8,7 @@
 # Ordena todas as arestas do grafo em ordem crescente de peso.
 # Inicializa uma floresta (um conjunto de árvores), onde cada vértice é uma árvore separada.
 # Adiciona as arestas mais leves à floresta, uma de cada vez, evitando ciclos, até que haja exatamente uma árvore que conecta todos os vértices.
+
+
+class Edge 
+end
