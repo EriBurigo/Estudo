@@ -7,5 +7,6 @@ def max_equal_sum(stack1, stack2, stack3)
     # Calcular a altura total das pilhas
     sum1 = stack1.sum # Soma a primeira pilha
     sum2 = stack2.sum 
+    sum3 = stack3.sum
 
 end
