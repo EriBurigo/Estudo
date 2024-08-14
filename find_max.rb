@@ -9,4 +9,6 @@ def max_equal_sum(stack1, stack2, stack3)
     sum2 = stack2.sum 
     sum3 = stack3.sum
 
+    # Indices para percorrer a pilha
+    index1 = 0
 end
