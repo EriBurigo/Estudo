@@ -13,4 +13,9 @@ def max_equal_sum(stack1, stack2, stack3)
     index1 = 0
     index2 = 0
     index3 = 0
+
+    # Se qualquer pilha estiver vazia, a altura máxima igual é zero
+    if index1 == stack1.length || index2 == stack2.length || index3 == stack3.length
+        return 0
+      end
 end
