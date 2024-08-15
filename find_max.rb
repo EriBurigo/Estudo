@@ -21,5 +21,6 @@ def max_equal_sum(stack1, stack2, stack3)
 
       # Se as alturas das três pilhas forem iguais, retorne essa altura
     if sum1 == sum2 && sum1 == sum3
+      return sum1
     end
 end
