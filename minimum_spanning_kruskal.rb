@@ -17,3 +17,7 @@ class Edge
   def initialize(src, dest, weight)
   end
 end
+
+class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kruskal.
+  
+end
