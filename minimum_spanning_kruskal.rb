@@ -19,5 +19,8 @@ class Edge
 end
 
 class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kruskal.
+
+  attr_accessor :edges, :vertices # Cria métodos getters e setters para os atributos 'edges' e 'vertices'.
+  
   
 end
