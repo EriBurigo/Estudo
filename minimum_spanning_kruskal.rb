@@ -17,6 +17,7 @@ class Edge
   def initialize(src, dest, weight)
     @src = src       # Vértice de origem
     @dest = dest     # Vértice de destino
+    @weight = weight   # Atribui o peso da aresta à variável de instância @weight
   end
 end
 
