@@ -15,6 +15,8 @@ class Edge
 
     # Método para inicializar uma nova aresta com os vértices de origem, destino e peso
   def initialize(src, dest, weight)
+    @src = src       # Vértice de origem
+    @dest = dest     # Vértice de destino
   end
 end
 
