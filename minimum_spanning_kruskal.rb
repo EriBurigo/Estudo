@@ -29,4 +29,6 @@ class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kr
     @vertices = vertices # Inicializa o numero de vertices no grafo com o valor passado como parametro
     @edges = [] # Inicializa a lista de arestas como um array vazio
   end
+
+    def add_edge(src, dest, weight) # Define um método para adicionar uma nova aresta ao grafo
 end
