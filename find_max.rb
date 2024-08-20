@@ -23,4 +23,7 @@ def max_equal_sum(stack1, stack2, stack3)
     if sum1 == sum2 && sum1 == sum3
       return sum1
     end
+
+    if sum1 >= sum2 && sum1 >= sum3
+    end
 end
