@@ -25,5 +25,6 @@ def max_equal_sum(stack1, stack2, stack3)
     end
 
     if sum1 >= sum2 && sum1 >= sum3
+      sum1 -= stack1[index1]  # Subtrai a altura do cilindro do topo da soma total da pilha 1
     end
 end
