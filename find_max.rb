@@ -33,5 +33,6 @@ def max_equal_sum(stack1, stack2, stack3)
       index2 += 1  # Move o índice para o próximo cilindro da pilha 2
 
     elsif sum3 >= sum1 && sum3 >= sum2 # Se a terceira pilha for a mais alta ou empatada com as outras, remove o cilindro do topo
+      sum3 -= stack3[index3]  # Subtrai a altura do cilindro do topo da soma total da pilha 3
     end
 end
