@@ -42,3 +42,4 @@ stack1 = [1, 8, 2, 4]
 stack2 = [4, 2, 8]
 stack3 = [6, 3, 2, 1]
 result = max_equal_sum(stack1, stack2, stack3)
+puts "A altura maxima possivel é #{result}"
