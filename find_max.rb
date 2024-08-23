@@ -13,7 +13,7 @@ def max_equal_sum(stack1, stack2, stack3)
     index1 = 0
     index2 = 0
     index3 = 0
-
+  while true
     # Se qualquer pilha estiver vazia, a altura máxima igual é zero
     if index1 == stack1.length || index2 == stack2.length || index3 == stack3.length
         return 0
@@ -35,4 +35,9 @@ def max_equal_sum(stack1, stack2, stack3)
     elsif sum3 >= sum1 && sum3 >= sum2 # Se a terceira pilha for a mais alta ou empatada com as outras, remove o cilindro do topo
       sum3 -= stack3[index3]  # Subtrai a altura do cilindro do topo da soma total da pilha 3
     end
+  end
 end
+
+stack1 = [1, 8, 2, 4]
+stack2 = [4, 2, 8]
+stack3 = [6, 3, 2, 1]
