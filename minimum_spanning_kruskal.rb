@@ -31,4 +31,5 @@ class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kr
   end
 
     def add_edge(src, dest, weight) # Define um método para adicionar uma nova aresta ao grafo
+      @edges << Edge.new(src, dest, weight)  # Adiciona uma nova aresta à lista de arestas
 end
