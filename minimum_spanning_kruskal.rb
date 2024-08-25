@@ -32,4 +32,9 @@ class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kr
 
     def add_edge(src, dest, weight) # Define um método para adicionar uma nova aresta ao grafo
       @edges << Edge.new(src, dest, weight)  # Adiciona uma nova aresta à lista de arestas
+    end
 end
+
+  # Método para encontrar a árvore geradora mínima usando o algoritmo de Kruskal
+  def find_mst
+  end
