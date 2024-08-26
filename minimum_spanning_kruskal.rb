@@ -38,4 +38,8 @@ end
   # Método para encontrar a árvore geradora mínima usando o algoritmo de Kruskal
   def find_mst
     @edges.sort_by!(&:weight) # Ordena as arestas pelo peso em ordem crescente
+    
+    # inicializa os pais e os ranks dos conjuntos disjuntos
+    parent = []
+    rank = []
   end
