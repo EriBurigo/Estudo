@@ -48,3 +48,5 @@ end
       parent[i] = i
       rank[i] = 0
   end
+
+  mst = [] # Inicializa a lista para armazenar as arestas da arvore geradora minima
