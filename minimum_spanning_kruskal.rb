@@ -42,4 +42,9 @@ end
     # inicializa os pais e os ranks dos conjuntos disjuntos
     parent = []
     rank = []
+
+    # Inicializa cada vertice como seu proprio pai (representante) e rank 0
+    @vertices.time do |i|
+      parent[i] = i
+      rank[i] = 0
   end
