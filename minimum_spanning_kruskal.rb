@@ -58,5 +58,6 @@ end
     # Se os vertices não estão no mesmo conjunto, a aresta não forma um ciclo
     if root1 != root2 
       mst << edge # Adiciona a aresta à arvore geradora minima
+      union(parent, rank, root1, root2)  # Une os dois conjuntos
     end
   end
