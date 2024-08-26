@@ -54,3 +54,8 @@ end
   @edges.each do |edge| # Itera sobre todas as arestas ordenadas
     root1 = find(parent, edge.src) # Encontra o representante (pai) do conjunto do vertice de origem
     root2 = find(parent, edge.dest) # Encontra o representante (pai) do conjunto do vertice de destino
+
+    # Se os vertices não estão no mesmo conjunto, a aresta não forma um ciclo
+    if root1 != root2 
+    end
+  end
