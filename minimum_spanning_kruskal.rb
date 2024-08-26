@@ -50,3 +50,6 @@ end
   end
 
   mst = [] # Inicializa a lista para armazenar as arestas da arvore geradora minima
+
+  @edges.each do |edge| # Itera sobre todas as arestas ordenadas
+    
