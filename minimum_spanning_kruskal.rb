@@ -52,4 +52,5 @@ end
   mst = [] # Inicializa a lista para armazenar as arestas da arvore geradora minima
 
   @edges.each do |edge| # Itera sobre todas as arestas ordenadas
+    root1 = find(parent, edge.src) # Encontra o representante (pai) do conjunto do vertice de origem
     
