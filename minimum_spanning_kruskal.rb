@@ -68,4 +68,8 @@ private
 
 # Método para encontrar o representante (pai) de um conjunto
 def find(parent, i)
+    # Aplica compressão de caminho para otimizar futuras operações de busca
+    if parent[i] != i
+      parent[i] = find(parent, parent[i])
+    end
 end
