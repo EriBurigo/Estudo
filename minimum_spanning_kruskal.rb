@@ -47,7 +47,7 @@ end
     @vertices.time do |i|
       parent[i] = i
       rank[i] = 0
-  end
+    end
 
   mst = [] # Inicializa a lista para armazenar as arestas da arvore geradora minima
 
@@ -61,3 +61,5 @@ end
       union(parent, rank, root1, root2)  # Une os dois conjuntos
     end
   end
+  mst  # Retorna a lista de arestas que formam a árvore geradora mínima
+end
