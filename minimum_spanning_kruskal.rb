@@ -72,4 +72,5 @@ def find(parent, i)
     if parent[i] != i
       parent[i] = find(parent, parent[i])
     end
+    parent[i]
 end
