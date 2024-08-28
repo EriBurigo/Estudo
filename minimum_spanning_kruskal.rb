@@ -63,3 +63,9 @@ end
   end
   mst  # Retorna a lista de arestas que formam a árvore geradora mínima
 end
+
+private
+
+# Método para encontrar o representante (pai) de um conjunto
+def find(parent, i)
+end
