@@ -77,3 +77,9 @@ end
 
 # Método para unir dois conjuntos disjuntos
 def union(parent, rank, x, y)
+  # Encontra as raízes dos conjuntos
+  root_x = find(parent, x)
+  root_y = find(parent, y)
+
+ 
+end
