@@ -74,3 +74,6 @@ def find(parent, i)
     end
     parent[i]
 end
+
+# Método para unir dois conjuntos disjuntos
+def union(parent, rank, x, y)
