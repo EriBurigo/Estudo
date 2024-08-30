@@ -81,5 +81,7 @@ def union(parent, rank, x, y)
   root_x = find(parent, x)
   root_y = find(parent, y)
 
- 
+     # Une as árvores menores sob a maior, baseado no rank
+     if rank[root_x] < rank[root_y]
+     end
 end
