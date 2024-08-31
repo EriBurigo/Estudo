@@ -86,5 +86,7 @@ def union(parent, rank, x, y)
       parent[root_x] = root_y
     elsif rank[root_x] > rank[root_y]
       parent[root_y] = root_x
+    else
+      parent[root_y] = root_x
      end
 end
