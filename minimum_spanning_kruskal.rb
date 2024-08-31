@@ -95,3 +95,10 @@ end
 # Exemplo de uso do algoritmo de Kruskal:
 vertices = 4  # Número de vértices no grafo
 kruskal = KruskalMST.new(vertices)
+
+# Adiciona arestas ao grafo
+kruskal.add_edge(0, 1, 10)
+kruskal.add_edge(0, 2, 6)
+kruskal.add_edge(0, 3, 5)
+kruskal.add_edge(1, 3, 15)
+kruskal.add_edge(2, 3, 4)
