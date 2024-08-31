@@ -33,7 +33,7 @@ class KruskalMST # Define a classe KruskalMST para implementar o algoritmo de Kr
     def add_edge(src, dest, weight) # Define um método para adicionar uma nova aresta ao grafo
       @edges << Edge.new(src, dest, weight)  # Adiciona uma nova aresta à lista de arestas
     end
-end
+
 
   # Método para encontrar a árvore geradora mínima usando o algoritmo de Kruskal
   def find_mst
@@ -62,31 +62,35 @@ end
     end
   end
   mst  # Retorna a lista de arestas que formam a árvore geradora mínima
-end
+
 
 private
 
 # Método para encontrar o representante (pai) de um conjunto
-def find(parent, i)
+  def find(parent, i)
     # Aplica compressão de caminho para otimizar futuras operações de busca
     if parent[i] != i
       parent[i] = find(parent, parent[i])
     end
     parent[i]
-end
+  end
 
 # Método para unir dois conjuntos disjuntos
-def union(parent, rank, x, y)
+  def union(parent, rank, x, y)
   # Encontra as raízes dos conjuntos
   root_x = find(parent, x)
   root_y = find(parent, y)
 
      # Une as árvores menores sob a maior, baseado no rank
-     if rank[root_x] < rank[root_y]
-      parent[root_x] = root_y
-    elsif rank[root_x] > rank[root_y]
-      parent[root_y] = root_x
-    else
-      parent[root_y] = root_x
-     end
+      if rank[root_x] < rank[root_y]
+          parent[root_x] = root_y
+       elsif rank[root_x] > rank[root_y]
+         parent[root_y] = root_x
+       else
+         parent[root_y] = root_x
+       end
+      end
 end
+
+# Exemplo de uso do algoritmo de Kruskal:
+vertices = 4  # Número de vértices no grafo
