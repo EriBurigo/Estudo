@@ -94,3 +94,4 @@ end
 
 # Exemplo de uso do algoritmo de Kruskal:
 vertices = 4  # Número de vértices no grafo
+kruskal = KruskalMST.new(vertices)
