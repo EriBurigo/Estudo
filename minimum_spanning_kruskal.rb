@@ -104,3 +104,8 @@ kruskal.add_edge(1, 3, 15)
 kruskal.add_edge(2, 3, 4)
 
 mst = kruskal.find_mst
+
+puts "Arestas na arvore geradora minima:"
+mst.each do |edge|
+ puts "#{edge.src} -- #{edge.dest} == #{edge.weight}"
+end
