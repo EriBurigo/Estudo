@@ -102,3 +102,5 @@ kruskal.add_edge(0, 2, 6)
 kruskal.add_edge(0, 3, 5)
 kruskal.add_edge(1, 3, 15)
 kruskal.add_edge(2, 3, 4)
+
+mst = kruskal.find_mst
