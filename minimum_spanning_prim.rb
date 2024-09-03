@@ -8,3 +8,8 @@ class Edge
         @weight = weight # Peso da aresta
     end
 end
+
+# Define uma classe para representar o grafo e implementar o algoritmo de Prim
+class Graph
+
+end
