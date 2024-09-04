@@ -15,5 +15,6 @@ class Graph
 
     def initialize(vertices)
         @vertices = vertices  # Define o número de vértices no grafo
+        @edges = []           # Inicializa a lista de arestas como um array vazio
     end
 end
