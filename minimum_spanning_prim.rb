@@ -14,5 +14,6 @@ class Graph
     attr_accessor :vertices, :edges # Cria métodos getters e setters para os atributos vertices e edges
 
     def initialize(vertices)
+        @vertices = vertices  # Define o número de vértices no grafo
     end
 end
