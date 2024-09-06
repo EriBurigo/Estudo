@@ -21,4 +21,7 @@ class Graph
     def add_edge(src, dest, weight)
         @edges << Edge.new(src, dest, weight) # Adiciona uma nova aresta à lista de arestas
     end
+
+    def prim_mst
+    end
 end
