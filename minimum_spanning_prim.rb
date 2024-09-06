@@ -17,4 +17,7 @@ class Graph
         @vertices = vertices  # Define o número de vértices no grafo
         @edges = []           # Inicializa a lista de arestas como um array vazio
     end
+
+    def add_edge(src, dest, weight)
+    end
 end
