@@ -27,5 +27,7 @@ class Graph
     mst_edges = []
     # Inicializa um array para marcar os vértices incluídos na MST
     in_mst = Array.new(@vertices, false)
+    # Seleciona o primeiro vértice como o ponto de partida
+    in_mst[0] = true
     end
 end
