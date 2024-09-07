@@ -29,5 +29,9 @@ class Graph
     in_mst = Array.new(@vertices, false)
     # Seleciona o primeiro vértice como o ponto de partida
     in_mst[0] = true
+    
+    # Repete até que todas as arestas da MST sejam encontradas
+    (@vertices - 1).times do
+        min_edge = nil
     end
 end
