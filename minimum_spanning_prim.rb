@@ -25,5 +25,7 @@ class Graph
     def prim_mst
         # Inicializa um array para armazenar as arestas da MST
     mst_edges = []
+    # Inicializa um array para marcar os vértices incluídos na MST
+    in_mst = Array.new(@vertices, false)
     end
 end
