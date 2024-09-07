@@ -23,5 +23,7 @@ class Graph
     end
 
     def prim_mst
+        # Inicializa um array para armazenar as arestas da MST
+    mst_edges = []
     end
 end
