@@ -35,6 +35,7 @@ class Graph
         min_edge = nil
 
         @edges.each do |edge|
+            if in_mst[edge.src] != in_mst[edge.dest]
         end
     end
 end
