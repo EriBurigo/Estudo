@@ -37,6 +37,7 @@ class Graph
         @edges.each do |edge|
             if in_mst[edge.src] != in_mst[edge.dest]
                 if min_edge.nil? || edge.weight < min_edge.weight
+                    min_edge = edge
         end
     end
 end
