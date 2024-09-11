@@ -46,3 +46,9 @@ class Graph
     mst_edges << min_edge
     in_mst[min_edge.src] = true
     in_mst[min_edge.dest] = true
+    end
+
+    # Retorna as arestas da árvore geradora mínima
+    mst_edges
+    
+end
