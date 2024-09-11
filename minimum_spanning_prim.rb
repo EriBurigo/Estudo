@@ -45,3 +45,4 @@ class Graph
     # Adiciona a menor aresta encontrada à MST
     mst_edges << min_edge
     in_mst[min_edge.src] = true
+    in_mst[min_edge.dest] = true
