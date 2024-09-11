@@ -38,9 +38,10 @@ class Graph
             if in_mst[edge.src] != in_mst[edge.dest]
                 if min_edge.nil? || edge.weight < min_edge.weight
                     min_edge = edge
+                end
+            end
         end
-    end
-end
 
     # Adiciona a menor aresta encontrada à MST
     mst_edges << min_edge
+    in_mst[min_edge.src] = true
