@@ -41,3 +41,6 @@ class Graph
         end
     end
 end
+
+    # Adiciona a menor aresta encontrada à MST
+    mst_edges << min_edge
