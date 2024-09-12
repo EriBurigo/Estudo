@@ -63,3 +63,6 @@ graph.add_edge(0, 2, 6)
 graph.add_edge(0, 3, 5)
 graph.add_edge(1, 3, 15)
 graph.add_edge(2, 3, 4)
+
+# Encontra a árvore geradora mínima usando o algoritmo de Prim
+mst = graph.prim_mst
