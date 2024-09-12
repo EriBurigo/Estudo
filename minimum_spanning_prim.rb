@@ -52,3 +52,7 @@ class Graph
     mst_edges
     
 end
+
+    # Exemplo de uso do algoritmo de Prim
+vertices = 4  # Define o número de vértices no grafo
+graph = Graph.new(vertices)
