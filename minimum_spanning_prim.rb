@@ -66,3 +66,5 @@ graph.add_edge(2, 3, 4)
 
 # Encontra a árvore geradora mínima usando o algoritmo de Prim
 mst = graph.prim_mst
+
+puts "Arestas na árvore geradora mínima:"
