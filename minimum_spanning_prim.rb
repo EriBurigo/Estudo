@@ -68,3 +68,5 @@ graph.add_edge(2, 3, 4)
 mst = graph.prim_mst
 
 puts "Arestas na árvore geradora mínima:"
+mst.each do |edge|
+end
