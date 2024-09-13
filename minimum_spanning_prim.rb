@@ -69,4 +69,5 @@ mst = graph.prim_mst
 
 puts "Arestas na árvore geradora mínima:"
 mst.each do |edge|
+    puts "#{edge.src} -- #{edge.dest} == #{edge.weight}"
 end
