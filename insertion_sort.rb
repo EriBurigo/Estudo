@@ -6,6 +6,8 @@ def insertion_sort (arr)
     (1...arr.lenght).each do |i|
 
         key = arr|i|
+
+        j = i - 1 
     end
 
 end
