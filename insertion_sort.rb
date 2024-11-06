@@ -8,8 +8,11 @@ def insertion_sort (arr)
         key = arr|i|
 
         j = i - 1 
-    end
 
+        while arr[j] > 0 && arr[j] > key 
+            
+        end 
+    end
 end
 
 arr = [1, 8, 6, 3, 7]
