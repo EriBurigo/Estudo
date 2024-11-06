@@ -11,6 +11,7 @@ def insertion_sort (arr)
 
         while arr[j] > 0 && arr[j] > key 
             arr[j + 1] = arr[j]
+            j -= 1
         end 
     end
 end
