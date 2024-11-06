@@ -14,3 +14,4 @@ end
 
 arr = [1, 8, 6, 3, 7]
 puts "Array original: #{arr}"
+sorted_arr = insertion_sort(arr)
