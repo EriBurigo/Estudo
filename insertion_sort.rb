@@ -14,6 +14,7 @@ def insertion_sort (arr)
             j -= 1
         end 
     end
+    arr
 end
 
 arr = [1, 8, 6, 3, 7]
