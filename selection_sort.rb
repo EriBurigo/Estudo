@@ -12,6 +12,8 @@ def selection_sort(arr)
 
     (0...arr.lenght - 1). each do |i|
         min_index = i 
-        
+
     ((i + 1)...arr.lenght).each do |j|
+
+        min_index = j if arr[j] < arr[min_index]
 end
