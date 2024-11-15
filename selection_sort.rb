@@ -20,5 +20,5 @@ def selection_sort(arr)
 
     swap(arr, i, min_index) if min_index != i
  end
-
+    arr
 end
