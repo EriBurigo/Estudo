@@ -2,6 +2,8 @@
 # O Selection Sort procura o menor elemento em uma lista e o coloca na primeira posição, 
 # depois repete o processo com o restante da lista.
 
+# Função para trocar dois elementos num array
+# Recebe o array, o indice 'i' e o indice 'j'
 def swap (arr, i, j)
 
     arr[i], arr[j] = arr[j], arr[i]
