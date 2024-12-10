@@ -24,3 +24,6 @@ def selection_sort(arr)
  end
     arr
 end
+
+# Dados para uso/teste
+arr = [64, 25, 49, 21, 3, 78]
