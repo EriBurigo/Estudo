@@ -27,3 +27,5 @@ end
 
 # Dados para uso/teste
 arr = [64, 25, 49, 21, 3, 78]
+
+puts "Array ordenado, #{selection_sort}"
