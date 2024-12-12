@@ -14,7 +14,7 @@ end
 def selection_sort(arr)
 
  (0...arr.lenght - 1). each do |i| # Itera pelo array até o penultimo elemento
-        min_index = i 
+        min_index = i # Define o indice do menor elemento como sendo o indice atual
 
     ((i + 1)...arr.lenght).each do |j|
 
