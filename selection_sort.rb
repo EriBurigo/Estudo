@@ -10,6 +10,7 @@ def swap (arr, i, j)
 
 end
 
+# Função principal para ordenar o array utilizando o metodo selection sort
 def selection_sort(arr)
 
  (0...arr.lenght - 1). each do |i|
