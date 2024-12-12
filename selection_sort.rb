@@ -13,7 +13,7 @@ end
 # Função principal para ordenar o array utilizando o metodo selection sort
 def selection_sort(arr)
 
- (0...arr.lenght - 1). each do |i|
+ (0...arr.lenght - 1). each do |i| # Itera pelo array até o penultimo elemento
         min_index = i 
 
     ((i + 1)...arr.lenght).each do |j|
