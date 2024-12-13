@@ -18,7 +18,7 @@ def selection_sort(arr)
 
     ((i + 1)...arr.lenght).each do |j| # Percorre o array a partir do próximo elemento (i+1) até o final
 
-        min_index = j if arr[j] < arr[min_index]
+        min_index = j if arr[j] < arr[min_index] # Se encontrar um elemento menor que o atual minimo, atualiza o min_index
     end
 
     swap(arr, i, min_index) if min_index != i
