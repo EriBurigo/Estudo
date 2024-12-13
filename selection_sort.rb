@@ -21,7 +21,7 @@ def selection_sort(arr)
         min_index = j if arr[j] < arr[min_index] # Se encontrar um elemento menor que o atual minimo, atualiza o min_index
     end
 
-    swap(arr, i, min_index) if min_index != i
+    swap(arr, i, min_index) if min_index != i # Se o menor elemento não estiver na posição correta, faz a troca 
  end
     arr
 end
